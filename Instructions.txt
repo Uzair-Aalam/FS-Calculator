@@ -1,0 +1,59 @@
+The code was developed in python 2.7 but it has been 
+upgraded to python3 now, since the support for python 2.7  
+has been lifted.
+======================================
+"FS Calculator1.0 installer setup.exe" can be downloaded and installed
+on the system.
+
+======================================
+To build the the executable, follow these steps:
+
+
+step 1: Make sure you have the following available with you.
+
+======================================
+Following libraries are required:
+numpy 		(Install it by executing "pip install numpy")
+openpyxl 	(Install it by executing "pip install openpyxl")
+pyinstaller	(Install it by executing "pip install PyInstaller")
+______________________________________
+
+Following files are rquired (Supplied with the package):
+
+dictdata.py
+snip1.py
+main.py
+snip5.py
+______________________________________
+
+
+Folder containing following pictures is required (supplied with the package):
+
+icon1.ico
+M1.gif
+M2.gif
+M2.png
+slopeCondition1.gif
+slopeCondition2.gif
+slopeCondition3.gif
+slopeCondition4.gif
+slopeCondition5.gif
+======================================
+
+
+Step 2: Open the command prompt and change your current directory to
+the Python3Code.
+
+Step 3: Run the main.py to check if everything is working fine
+	"python main.py"
+
+step 3: To build stnadalone .exe file, issue the following command
+	"pyinstaller -w -F main.py"
+
+step 4: Find the "main.exe" file in "dist" folder just created. 
+
+step 5: Now this "main.exe" file is placed along with "Pictures" folder anywhere.
+
+
+
+
