@@ -52,7 +52,7 @@ step 3: To build stnadalone .exe file, issue the following command
 
 step 4: Find the "main.exe" file in "dist" folder just created. 
 
-step 5: Now this "main.exe" file is placed along with "Pictures" folder anywhere.
+step 5: Now this "main.exe" file can be placed along with "Pictures" folder anywhere.
 
 
 
